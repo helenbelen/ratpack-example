@@ -6,8 +6,7 @@ buildscript {
     classpath "io.ratpack:ratpack-gradle:1.6.0"
   }
 }
-
-apply plugin: "io.ratpack.ratpack-java"
+//apply plugin: "io.ratpack.ratpack-java"
 apply plugin: "io.ratpack.ratpack-groovy"
 apply plugin: "idea"
 
@@ -18,5 +17,5 @@ repositories {
 dependencies {
   runtime "org.slf4j:slf4j-simple:1.7.25"
 }
-
+//
 // mainClassName = "my.app.Main"
